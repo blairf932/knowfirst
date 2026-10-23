@@ -16,7 +16,7 @@ async function shutdown() {
     await new Promise((resolve, reject) =>
       server.close((error) => (error ? reject(error) : resolve())),
     );
-    if (!globalThis.frontierShutdown) throw new Error('AFI shutdown hook is missing');
+    if (!globalThis.frontierShutdown) throw new Error('knowfirst shutdown hook is missing');
     await globalThis.frontierShutdown();
     await app.close();
   })();
@@ -29,7 +29,7 @@ for (const signal of ['SIGINT', 'SIGTERM'])
         process.exitCode = 0;
       },
       () => {
-        console.error('AFI shutdown failed; inspect retained database lock before restart.');
+        console.error('knowfirst shutdown failed; inspect retained database lock before restart.');
         process.exitCode = 1;
       },
     );
@@ -38,4 +38,4 @@ for (const signal of ['SIGINT', 'SIGTERM'])
 process.on('message', (message) => {
   if (message === 'shutdown') void shutdown().then(() => process.disconnect?.());
 });
-server.listen(Number(process.env.PORT || 3100), '127.0.0.1', () => console.log('AFI server ready'));
+server.listen(Number(process.env.PORT || 3100), '127.0.0.1', () => console.log('knowfirst server ready'));

@@ -1,9 +1,9 @@
 # Source provenance and attribution
 
-AFI v0.1.1 is published as a clean source snapshot. The original development repository was
+knowfirst v0.1.1 is published as a clean source snapshot. The original development repository was
 private and contained personal working history; that history is intentionally not distributed.
 
-- **Copyright holder**: `2026 AFI contributors`, as stated in [LICENSE](LICENSE). The MIT license
+- **Copyright holder**: `2026 knowfirst contributors`, as stated in [LICENSE](LICENSE). The MIT license
   text is unchanged and unmodified.
 - **What this snapshot is**: application source, tests, migrations, scripts, documentation and the
   exact dependency lockfile. No build artifacts, runtime bundles, databases, backups, logs,

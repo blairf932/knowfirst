@@ -1072,7 +1072,7 @@ export default function FrontierApp({
         <div className="page-heading">
           <div>
             <div className="eyebrow">OBSERVE → VERIFY → UNDERSTAND</div>
-            <h1>AI Frontier Radar</h1>
+            <h1>Radar</h1>
             <p>时间线上发生了什么，与当前证据能说明什么。</p>
           </div>
           <button

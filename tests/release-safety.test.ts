@@ -13,7 +13,7 @@ test('release input gate rejects nested env variants and credentials before copy
     const file = path.join(root, 'nested', 'readme.txt');
     await writeFile(file, 'public documentation');
     assert.equal(await assertSafeTree(root), 1);
-    for (const name of ['AFI-AUDIT.env', 'AFI-AUDIT.env.local', '.env', '.env.production', 'OPEN.ENV']) {
+    for (const name of ['knowfirst-AUDIT.env', 'knowfirst-AUDIT.env.local', '.env', '.env.production', 'OPEN.ENV']) {
       const envFile = path.join(root, 'nested', name);
       await writeFile(envFile, 'AFI_NON_SECRET_SENTINEL');
       await assert.rejects(assertSafeTree(root), /private path/);

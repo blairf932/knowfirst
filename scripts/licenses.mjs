@@ -97,7 +97,7 @@ await writeFile(
   JSON.stringify({ checked_at: new Date().toISOString(), packages: rows }, null, 2),
 );
 const failed = rows.filter((x) => x.review === 'LEGAL_REVIEW_REQUIRED');
-const notice = `AI Frontier Intelligence �� Third-party notices\n\ncaniuse-lite ${lock.packages['node_modules/caniuse-lite'].version}\nCreator: Ben Briggs and Browserslist/caniuse-lite contributors; underlying Can I Use data contributors (Alexis Deveria and contributors).\nSources: https://github.com/browserslist/caniuse-lite and https://caniuse.com/\nLicense: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/\nUnmodified package data. Provided AS IS, without warranties; no endorsement implied.\nFull original license follows.\n\n${await readFile('node_modules/caniuse-lite/LICENSE', 'utf8')}`;
+const notice = `knowfirst �� Third-party notices\n\ncaniuse-lite ${lock.packages['node_modules/caniuse-lite'].version}\nCreator: Ben Briggs and Browserslist/caniuse-lite contributors; underlying Can I Use data contributors (Alexis Deveria and contributors).\nSources: https://github.com/browserslist/caniuse-lite and https://caniuse.com/\nLicense: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/\nUnmodified package data. Provided AS IS, without warranties; no endorsement implied.\nFull original license follows.\n\n${await readFile('node_modules/caniuse-lite/LICENSE', 'utf8')}`;
 await writeFile('THIRD_PARTY_NOTICES.txt', notice);
 await mkdir('public', { recursive: true });
 await writeFile('public/THIRD_PARTY_NOTICES.txt', notice);

@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for considering a contribution to AI Frontier Intelligence (AFI).
+Thanks for considering a contribution to knowfirst.
 
 ## Before opening a change
 
@@ -11,7 +11,7 @@ Thanks for considering a contribution to AI Frontier Intelligence (AFI).
 
 ## Local setup
 
-AFI currently targets Node.js 24 and npm. From a clean clone:
+knowfirst currently targets Node.js 24 and npm. From a clean clone:
 
 ```powershell
 npm ci

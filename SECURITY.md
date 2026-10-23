@@ -1,6 +1,6 @@
 # Security Policy
 
-AFI is an early-stage local application, not a supported production service. No response-time guarantee is offered.
+knowfirst is an early-stage local application, not a supported production service. No response-time guarantee is offered.
 
 ## Report a vulnerability privately
 

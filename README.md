@@ -1,4 +1,4 @@
-# AI Frontier Intelligence (AFI)
+# knowfirst
 
 > Local-first research workspace for the AI ecosystem. Turns scattered signals into traceable, time-stamped evidence — so you know what the world has already built before you build it.
 >
@@ -10,16 +10,18 @@
 
 **Status: v0.1.1, alpha.** Internal MVP, not production-ready. Registration is open by default and the server binds to 127.0.0.1 only. Read [docs/FEATURE_STATUS.md](docs/FEATURE_STATUS.md) before exposing it anywhere.
 
+Previously developed under the internal name **AI Frontier Intelligence (AFI)**. The rename is branding only: the package name, database format identifiers and backup version strings are unchanged, so an existing local database keeps working.
+
 ## Why this exists
 
 Most "AI tool directories" are lists. Most "AI answers" are confident and unverifiable.
-AFI takes a third path: every claim is attached to a source, a fetch date, and an evidence level.
+knowfirst takes a third path: every claim is attached to a source, a fetch date, and an evidence level.
 
 The design rule is one sentence:
 
 > **FACT 与 ANALYSIS 永不混写。** Unknown stays `UNKNOWN`, never a fabricated zero.
 
-When a source is unreachable, AFI records `ERROR` / `RATE_LIMITED` and keeps the last known fact
+When a source is unreachable, knowfirst records `ERROR` / `RATE_LIMITED` and keeps the last known fact
 with its timestamp — it does not silently overwrite history, and it does not fill the gap with a
 guess.
 
@@ -180,7 +182,7 @@ Security reports: [SECURITY.md](SECURITY.md) — please report privately, not in
 
 ## License
 
-[MIT](LICENSE). Copyright (c) 2026 AFI contributors. Third-party dependencies keep their own
+[MIT](LICENSE). Copyright (c) 2026 knowfirst contributors. Third-party dependencies keep their own
 licenses — see [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt). MIT grants no rights to third-party
 trademarks, dataset or service terms.
 
@@ -198,7 +200,7 @@ Experimental software, published under the MIT license with no warranty of any k
 
 ## 中文说明
 
-**AFI（AI Frontier Intelligence）** 是一个本地优先的 AI 生态研究工作台。它不做"AI 榜单"，
+**knowfirst**（原名 AI Frontier Intelligence，缩写 AFI）是一个本地优先的 AI 生态研究工作台。它不做"AI 榜单"，
 也不做"信口开河的聊天"，而是把每条结论都绑到来源、抓取日期和证据等级上。
 
 核心设计只有一句：**FACT 与 ANALYSIS 永不混写。** 没有证据就显示 `UNKNOWN`，绝不填零；

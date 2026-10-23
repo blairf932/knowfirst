@@ -100,7 +100,7 @@ test('mobile navigation and responsive layout', async ({ page }) => {
   await page.goto('/');
   await page.getByRole('button', { name: '切换导航' }).click();
   await page.getByRole('link', { name: 'Frontier Radar' }).click();
-  await expect(page.getByRole('heading', { name: 'AI Frontier Radar' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Radar' })).toBeVisible();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(
     true,
   );

@@ -1,4 +1,4 @@
-AI Frontier Intelligence �� Third-party notices
+knowfirst �� Third-party notices
 
 caniuse-lite 1.0.30001810
 Creator: Ben Briggs and Browserslist/caniuse-lite contributors; underlying Can I Use data contributors (Alexis Deveria and contributors).

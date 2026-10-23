@@ -6,7 +6,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 ---
 
-# AFI project rules
+# knowfirst project rules
 
 Guidance for AI coding agents working in this repository. Humans should read
 [CONTRIBUTING.md](CONTRIBUTING.md).

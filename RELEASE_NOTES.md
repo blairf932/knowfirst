@@ -1,6 +1,6 @@
-# AFI v0.1.1
+# knowfirst v0.1.1
 
-First public source release of AI Frontier Intelligence — a local-first research workspace that
+First public source release of knowfirst — a local-first research workspace that
 keeps every AI-ecosystem claim tied to a source, a fetch date and an evidence level.
 
 **Included**

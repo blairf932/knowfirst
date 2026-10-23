@@ -30,7 +30,7 @@ const requiredRuntime = path.join(
   destination,
   'node_modules/next/dist/compiled/next-server/app-route-turbo.runtime.prod.js',
 );
-// Retain Next's serialized build configuration, but use AFI's draining shutdown path.
+// Retain Next's serialized build configuration, but use knowfirst's draining shutdown path.
 const bootstrapPath = path.join(destination, 'server.js');
 const bootstrap = await readFile(bootstrapPath, 'utf8');
 const marker = "require('next')";
