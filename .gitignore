@@ -1,0 +1,36 @@
+node_modules/
+.next/
+out/
+dist/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+
+# Local data, caches, backups
+.data/
+.cache/
+backups/
+*.log
+*.tsbuildinfo
+coverage/
+
+# Test output
+test-results/
+playwright-report/
+
+# Generated verification artifacts (produced by scripts/, never committed)
+docs/DATA_STATUS.json
+docs/COMPATIBILITY_ACCEPTANCE.json
+docs/FOUNDATION_STATUS.json
+docs/release-artifact.json
+docs/RELEASE_RUNTIME_ACCEPTANCE*.json
+docs/LLM_ACCEPTANCE_REMEDIATION.json
+docs/LLM_EXTRACTION_REMEDIATION*.json
+docs/SECURITY_AUDIT.json
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini

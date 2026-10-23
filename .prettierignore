@@ -1,0 +1,10 @@
+node_modules
+.next
+.data
+backups
+test-results
+playwright-report
+package-lock.json
+docs
+.env*
+next-env.d.ts

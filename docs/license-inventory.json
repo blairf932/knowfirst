@@ -1,0 +1,1125 @@
+{
+  "checked_at": "2026-09-05T13:12:21.095Z",
+  "packages": [
+    {
+      "package": "@electric-sql/pglite",
+      "version": "0.5.8",
+      "license": "Apache-2.0",
+      "scope": "direct runtime",
+      "purpose": "PGlite is a WASM Postgres build packaged into a TypeScript client library that enables you to run Postgres in the browser, Node.js and Bun, with no need to install any other dependencies. It is only 3.7mb gzipped.",
+      "review": "KEEP"
+    },
+    {
+      "package": "@emnapi/runtime",
+      "version": "1.11.3",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@esbuild/aix-ppc64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@esbuild/android-arm",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@esbuild/android-arm64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@esbuild/android-x64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@esbuild/darwin-arm64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@esbuild/darwin-x64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@esbuild/freebsd-arm64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@esbuild/freebsd-x64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@esbuild/linux-arm",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@esbuild/linux-arm64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@esbuild/linux-ia32",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@esbuild/linux-loong64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@esbuild/linux-mips64el",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@esbuild/linux-ppc64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@esbuild/linux-riscv64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@esbuild/linux-s390x",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@esbuild/linux-x64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@esbuild/netbsd-arm64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@esbuild/netbsd-x64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@esbuild/openbsd-arm64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@esbuild/openbsd-x64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@esbuild/openharmony-arm64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@esbuild/sunos-x64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@esbuild/win32-arm64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@esbuild/win32-ia32",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@esbuild/win32-x64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "The Windows 64-bit binary for esbuild, a JavaScript bundler.",
+      "review": "KEEP"
+    },
+    {
+      "package": "@img/colour",
+      "version": "1.1.0",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "The ESM-only 'color' package made compatible for use with CommonJS runtimes",
+      "review": "KEEP"
+    },
+    {
+      "package": "@img/sharp-darwin-arm64",
+      "version": "0.35.4",
+      "license": "Apache-2.0",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@img/sharp-darwin-x64",
+      "version": "0.35.4",
+      "license": "Apache-2.0",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@img/sharp-freebsd-wasm32",
+      "version": "0.35.4",
+      "license": "Apache-2.0",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@img/sharp-libvips-darwin-arm64",
+      "version": "1.3.3",
+      "license": "LGPL-3.0-or-later",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "REMOVE"
+    },
+    {
+      "package": "@img/sharp-libvips-darwin-x64",
+      "version": "1.3.3",
+      "license": "LGPL-3.0-or-later",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "REMOVE"
+    },
+    {
+      "package": "@img/sharp-libvips-linux-arm",
+      "version": "1.3.3",
+      "license": "LGPL-3.0-or-later",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "REMOVE"
+    },
+    {
+      "package": "@img/sharp-libvips-linux-arm64",
+      "version": "1.3.3",
+      "license": "LGPL-3.0-or-later",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "REMOVE"
+    },
+    {
+      "package": "@img/sharp-libvips-linux-ppc64",
+      "version": "1.3.3",
+      "license": "LGPL-3.0-or-later",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "REMOVE"
+    },
+    {
+      "package": "@img/sharp-libvips-linux-riscv64",
+      "version": "1.3.3",
+      "license": "LGPL-3.0-or-later",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "REMOVE"
+    },
+    {
+      "package": "@img/sharp-libvips-linux-s390x",
+      "version": "1.3.3",
+      "license": "LGPL-3.0-or-later",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "REMOVE"
+    },
+    {
+      "package": "@img/sharp-libvips-linux-x64",
+      "version": "1.3.3",
+      "license": "LGPL-3.0-or-later",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "REMOVE"
+    },
+    {
+      "package": "@img/sharp-libvips-linuxmusl-arm64",
+      "version": "1.3.3",
+      "license": "LGPL-3.0-or-later",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "REMOVE"
+    },
+    {
+      "package": "@img/sharp-libvips-linuxmusl-x64",
+      "version": "1.3.3",
+      "license": "LGPL-3.0-or-later",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "REMOVE"
+    },
+    {
+      "package": "@img/sharp-linux-arm",
+      "version": "0.35.4",
+      "license": "Apache-2.0",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@img/sharp-linux-arm64",
+      "version": "0.35.4",
+      "license": "Apache-2.0",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@img/sharp-linux-ppc64",
+      "version": "0.35.4",
+      "license": "Apache-2.0",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@img/sharp-linux-riscv64",
+      "version": "0.35.4",
+      "license": "Apache-2.0",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@img/sharp-linux-s390x",
+      "version": "0.35.4",
+      "license": "Apache-2.0",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@img/sharp-linux-x64",
+      "version": "0.35.4",
+      "license": "Apache-2.0",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@img/sharp-linuxmusl-arm64",
+      "version": "0.35.4",
+      "license": "Apache-2.0",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@img/sharp-linuxmusl-x64",
+      "version": "0.35.4",
+      "license": "Apache-2.0",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@img/sharp-wasm32",
+      "version": "0.35.4",
+      "license": "Apache-2.0 AND LGPL-3.0-or-later AND MIT",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "REMOVE"
+    },
+    {
+      "package": "@img/sharp-webcontainers-wasm32",
+      "version": "0.35.4",
+      "license": "Apache-2.0",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@img/sharp-win32-arm64",
+      "version": "0.35.4",
+      "license": "Apache-2.0 AND LGPL-3.0-or-later",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "REMOVE"
+    },
+    {
+      "package": "@img/sharp-win32-ia32",
+      "version": "0.35.4",
+      "license": "Apache-2.0 AND LGPL-3.0-or-later",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "REMOVE"
+    },
+    {
+      "package": "@img/sharp-win32-x64",
+      "version": "0.35.4",
+      "license": "Apache-2.0 AND LGPL-3.0-or-later",
+      "scope": "transitive runtime",
+      "purpose": "Prebuilt sharp for use with Windows x64",
+      "review": "REMOVE"
+    },
+    {
+      "package": "@next/env",
+      "version": "16.3.4",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Next.js dotenv file loading",
+      "review": "KEEP"
+    },
+    {
+      "package": "@next/swc-darwin-arm64",
+      "version": "16.3.4",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@next/swc-darwin-x64",
+      "version": "16.3.4",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@next/swc-linux-arm64-gnu",
+      "version": "16.3.4",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@next/swc-linux-arm64-musl",
+      "version": "16.3.4",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@next/swc-linux-x64-gnu",
+      "version": "16.3.4",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@next/swc-linux-x64-musl",
+      "version": "16.3.4",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@next/swc-win32-arm64-msvc",
+      "version": "16.3.4",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@next/swc-win32-x64-msvc",
+      "version": "16.3.4",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@nodable/entities",
+      "version": "3.0.0",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Entity parser for XML, HTML, External entites with security and NCR control",
+      "review": "KEEP"
+    },
+    {
+      "package": "@playwright/test",
+      "version": "1.62.1",
+      "license": "Apache-2.0",
+      "scope": "direct development",
+      "purpose": "A high-level API to automate web browsers",
+      "review": "KEEP"
+    },
+    {
+      "package": "@swc/helpers",
+      "version": "0.5.23",
+      "license": "Apache-2.0",
+      "scope": "transitive runtime",
+      "purpose": "External helpers for the swc project.",
+      "review": "KEEP"
+    },
+    {
+      "package": "@types/node",
+      "version": "26.4.1",
+      "license": "MIT",
+      "scope": "direct development",
+      "purpose": "TypeScript definitions for node",
+      "review": "KEEP"
+    },
+    {
+      "package": "@types/pg",
+      "version": "8.23.1",
+      "license": "MIT",
+      "scope": "direct development",
+      "purpose": "TypeScript definitions for pg",
+      "review": "KEEP"
+    },
+    {
+      "package": "@types/react",
+      "version": "19.2.18",
+      "license": "MIT",
+      "scope": "direct development",
+      "purpose": "TypeScript definitions for react",
+      "review": "KEEP"
+    },
+    {
+      "package": "@types/react-dom",
+      "version": "19.2.7",
+      "license": "MIT",
+      "scope": "direct development",
+      "purpose": "TypeScript definitions for react-dom",
+      "review": "KEEP"
+    },
+    {
+      "package": "@typescript/typescript-aix-ppc64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@typescript/typescript-darwin-arm64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@typescript/typescript-darwin-x64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@typescript/typescript-freebsd-arm64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@typescript/typescript-freebsd-x64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@typescript/typescript-linux-arm",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@typescript/typescript-linux-arm64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@typescript/typescript-linux-loong64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@typescript/typescript-linux-mips64el",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@typescript/typescript-linux-ppc64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@typescript/typescript-linux-riscv64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@typescript/typescript-linux-s390x",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@typescript/typescript-linux-x64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@typescript/typescript-netbsd-arm64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@typescript/typescript-netbsd-x64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@typescript/typescript-openbsd-arm64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@typescript/typescript-openbsd-x64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@typescript/typescript-sunos-x64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@typescript/typescript-win32-arm64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "@typescript/typescript-win32-x64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "scope": "transitive development",
+      "purpose": "TypeScript is a language for application scale JavaScript development",
+      "review": "KEEP"
+    },
+    {
+      "package": "anynum",
+      "version": "1.0.1",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Normalize all Unicode decimal digits (Devanagari, Arabic, Thai, etc.) to ASCII numerals. Zero dependencies, performance-first.",
+      "review": "KEEP"
+    },
+    {
+      "package": "baseline-browser-mapping",
+      "version": "2.11.21",
+      "license": "Apache-2.0",
+      "scope": "transitive runtime",
+      "purpose": "A library for obtaining browser versions with their maximum supported Baseline feature set and Widely Available status.",
+      "review": "KEEP"
+    },
+    {
+      "package": "caniuse-lite",
+      "version": "1.0.30001810",
+      "license": "CC-BY-4.0",
+      "scope": "transitive runtime",
+      "purpose": "A smaller version of caniuse-db, with only the essentials!",
+      "review": "KEEP_WITH_ATTRIBUTION"
+    },
+    {
+      "package": "client-only",
+      "version": "0.0.1",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "This is a marker package to indicate that a module can only be used in Client Components.",
+      "review": "KEEP"
+    },
+    {
+      "package": "csstype",
+      "version": "3.2.3",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Strict TypeScript and Flow types for style based on MDN data",
+      "review": "KEEP"
+    },
+    {
+      "package": "detect-libc",
+      "version": "2.1.2",
+      "license": "Apache-2.0",
+      "scope": "transitive runtime",
+      "purpose": "Node.js module to detect the C standard library (libc) implementation family and version",
+      "review": "KEEP"
+    },
+    {
+      "package": "esbuild",
+      "version": "0.28.2",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "An extremely fast JavaScript and CSS bundler and minifier.",
+      "review": "KEEP"
+    },
+    {
+      "package": "fast-xml-builder",
+      "version": "1.3.1",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Build XML from JSON without C/C++ based libraries",
+      "review": "KEEP"
+    },
+    {
+      "package": "fast-xml-parser",
+      "version": "5.11.1",
+      "license": "MIT",
+      "scope": "direct runtime",
+      "purpose": "Validate XML, Parse XML, Build XML without C/C++ based libraries",
+      "review": "KEEP"
+    },
+    {
+      "package": "fsevents",
+      "version": "2.3.2",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "is-unsafe",
+      "version": "2.0.2",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Zero-dependency, DOM-free, pure predicate for detecting unsafe strings across HTML, XML, SVG, SQL, SHELL, and REGEX contexts",
+      "review": "KEEP"
+    },
+    {
+      "package": "lucide-react",
+      "version": "1.41.0",
+      "license": "ISC",
+      "scope": "direct runtime",
+      "purpose": "A Lucide icon library package for React applications.",
+      "review": "KEEP"
+    },
+    {
+      "package": "nanoid",
+      "version": "3.3.18",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "A tiny (116 bytes), secure URL-friendly unique string ID generator",
+      "review": "KEEP"
+    },
+    {
+      "package": "next",
+      "version": "16.3.4",
+      "license": "MIT",
+      "scope": "direct runtime",
+      "purpose": "The React Framework",
+      "review": "KEEP"
+    },
+    {
+      "package": "path-expression-matcher",
+      "version": "1.6.2",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Efficient path tracking and pattern matching for XML/JSON parsers",
+      "review": "KEEP"
+    },
+    {
+      "package": "pg",
+      "version": "8.23.0",
+      "license": "MIT",
+      "scope": "direct runtime",
+      "purpose": "PostgreSQL client - pure javascript & libpq with the same API",
+      "review": "KEEP"
+    },
+    {
+      "package": "pg-cloudflare",
+      "version": "1.4.0",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "A socket implementation that can run on Cloudflare Workers using native TCP connections.",
+      "review": "KEEP"
+    },
+    {
+      "package": "pg-connection-string",
+      "version": "2.14.0",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Functions for dealing with a PostgreSQL connection string",
+      "review": "KEEP"
+    },
+    {
+      "package": "pg-int8",
+      "version": "1.0.1",
+      "license": "ISC",
+      "scope": "transitive runtime",
+      "purpose": "64-bit big-endian signed integer-to-string conversion",
+      "review": "KEEP"
+    },
+    {
+      "package": "pg-pool",
+      "version": "3.14.0",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Connection pool for node-postgres",
+      "review": "KEEP"
+    },
+    {
+      "package": "pg-protocol",
+      "version": "1.16.0",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "The postgres client/server binary protocol, implemented in TypeScript",
+      "review": "KEEP"
+    },
+    {
+      "package": "pg-types",
+      "version": "2.2.0",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Query result type converters for node-postgres",
+      "review": "KEEP"
+    },
+    {
+      "package": "pgpass",
+      "version": "1.0.5",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Module for reading .pgpass",
+      "review": "KEEP"
+    },
+    {
+      "package": "picocolors",
+      "version": "1.1.1",
+      "license": "ISC",
+      "scope": "transitive runtime",
+      "purpose": "The tiniest and the fastest library for terminal output formatting with ANSI colors",
+      "review": "KEEP"
+    },
+    {
+      "package": "playwright",
+      "version": "1.62.1",
+      "license": "Apache-2.0",
+      "scope": "transitive runtime",
+      "purpose": "A high-level API to automate web browsers",
+      "review": "KEEP"
+    },
+    {
+      "package": "playwright-core",
+      "version": "1.62.1",
+      "license": "Apache-2.0",
+      "scope": "transitive runtime",
+      "purpose": "A high-level API to automate web browsers",
+      "review": "KEEP"
+    },
+    {
+      "package": "postcss",
+      "version": "8.5.23",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Tool for transforming styles with JS plugins",
+      "review": "KEEP"
+    },
+    {
+      "package": "postgres-array",
+      "version": "2.0.0",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Parse postgres array columns",
+      "review": "KEEP"
+    },
+    {
+      "package": "postgres-bytea",
+      "version": "1.0.1",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Postgres bytea parser",
+      "review": "KEEP"
+    },
+    {
+      "package": "postgres-date",
+      "version": "1.0.7",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Postgres date column parser",
+      "review": "KEEP"
+    },
+    {
+      "package": "postgres-interval",
+      "version": "1.2.0",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Parse Postgres interval columns",
+      "review": "KEEP"
+    },
+    {
+      "package": "prettier",
+      "version": "3.9.6",
+      "license": "MIT",
+      "scope": "direct development",
+      "purpose": "Prettier is an opinionated code formatter",
+      "review": "KEEP"
+    },
+    {
+      "package": "react",
+      "version": "19.2.8",
+      "license": "MIT",
+      "scope": "direct runtime",
+      "purpose": "React is a JavaScript library for building user interfaces.",
+      "review": "KEEP"
+    },
+    {
+      "package": "react-dom",
+      "version": "19.2.8",
+      "license": "MIT",
+      "scope": "direct runtime",
+      "purpose": "React package for working with the DOM.",
+      "review": "KEEP"
+    },
+    {
+      "package": "scheduler",
+      "version": "0.27.0",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Cooperative scheduler for the browser environment.",
+      "review": "KEEP"
+    },
+    {
+      "package": "semver",
+      "version": "7.8.5",
+      "license": "ISC",
+      "scope": "transitive runtime",
+      "purpose": "The semantic version parser used by npm.",
+      "review": "KEEP"
+    },
+    {
+      "package": "sharp",
+      "version": "0.35.4",
+      "license": "Apache-2.0",
+      "scope": "transitive runtime",
+      "purpose": "High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP, GIF, AVIF and TIFF images",
+      "review": "KEEP"
+    },
+    {
+      "package": "source-map-js",
+      "version": "1.2.1",
+      "license": "BSD-3-Clause",
+      "scope": "transitive runtime",
+      "purpose": "Generates and consumes source maps",
+      "review": "KEEP"
+    },
+    {
+      "package": "split2",
+      "version": "4.2.0",
+      "license": "ISC",
+      "scope": "transitive runtime",
+      "purpose": "split a Text Stream into a Line Stream, using Stream 3",
+      "review": "KEEP"
+    },
+    {
+      "package": "strnum",
+      "version": "2.4.2",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Parse String to Number based on configuration",
+      "review": "KEEP"
+    },
+    {
+      "package": "styled-jsx",
+      "version": "5.1.6",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Full CSS support for JSX without compromises",
+      "review": "KEEP"
+    },
+    {
+      "package": "tslib",
+      "version": "2.8.1",
+      "license": "0BSD",
+      "scope": "transitive runtime",
+      "purpose": "Runtime library for TypeScript helper functions",
+      "review": "KEEP"
+    },
+    {
+      "package": "tsx",
+      "version": "4.23.13",
+      "license": "MIT",
+      "scope": "direct development",
+      "purpose": "TypeScript Execute (tsx): Node.js enhanced with esbuild to run TypeScript & ESM files",
+      "review": "KEEP"
+    },
+    {
+      "package": "fsevents",
+      "version": "2.3.3",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "Transitive dependency",
+      "review": "KEEP"
+    },
+    {
+      "package": "typescript",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "scope": "direct development",
+      "purpose": "TypeScript is a language for application scale JavaScript development",
+      "review": "KEEP"
+    },
+    {
+      "package": "undici-types",
+      "version": "8.3.0",
+      "license": "MIT",
+      "scope": "transitive development",
+      "purpose": "A stand-alone types package for Undici",
+      "review": "KEEP"
+    },
+    {
+      "package": "xml-naming",
+      "version": "0.3.0",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "Validates XML name productions — Name, NCName, QName, NMToken, NMTokens — for XML 1.0 and 1.1",
+      "review": "KEEP"
+    },
+    {
+      "package": "xtend",
+      "version": "4.0.2",
+      "license": "MIT",
+      "scope": "transitive runtime",
+      "purpose": "extend like a boss",
+      "review": "KEEP"
+    },
+    {
+      "package": "zod",
+      "version": "4.5.4",
+      "license": "MIT",
+      "scope": "direct runtime",
+      "purpose": "TypeScript-first schema declaration and validation library with static type inference",
+      "review": "KEEP"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+node_modules/
+.next/
+dist/
+out/
+
+# Nothing environment-shaped ever ships
+.env
+.env.*
+**/.env
+**/.env.*
+!/.env.example
+
+.data/
+.cache/
+backups/
+test-results/
+playwright-report/
+coverage/
+*.log
+*.tsbuildinfo
+
+# Local verification output
+docs/DATA_STATUS.json
+docs/COMPATIBILITY_ACCEPTANCE.json
+docs/FOUNDATION_STATUS.json
+docs/release-artifact.json
+docs/RELEASE_RUNTIME_ACCEPTANCE*.json
+
+.DS_Store
+Thumbs.db
+desktop.ini

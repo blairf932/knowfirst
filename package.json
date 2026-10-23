@@ -1,0 +1,70 @@
+{
+  "name": "knowfirst",
+  "version": "0.1.1",
+  "description": "Local-first research workspace for the AI ecosystem: evidence-backed project discovery, comparisons, Build/Buy decisions and Radar.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24 <27"
+  },
+  "keywords": [
+    "ai",
+    "research",
+    "evidence",
+    "local-first",
+    "nextjs",
+    "postgresql",
+    "pglite",
+    "knowledge-graph"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blairf932/knowfirst.git"
+  },
+  "homepage": "https://github.com/blairf932/knowfirst#readme",
+  "bugs": {
+    "url": "https://github.com/blairf932/knowfirst/issues"
+  },
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1 --port 3100",
+    "build": "next build",
+    "start": "node scripts/server.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test --test-concurrency=1 tests/*.test.ts",
+    "test:browser": "playwright test",
+    "db:migrate": "tsx scripts/manage.ts migrate",
+    "db:seed": "tsx scripts/manage.ts seed",
+    "radar:refresh": "tsx scripts/manage.ts refresh",
+    "db:backup": "tsx scripts/manage.ts backup",
+    "db:restore": "tsx scripts/manage.ts restore",
+    "data:status": "tsx scripts/report.ts",
+    "licenses": "node scripts/licenses.mjs",
+    "check": "npm run typecheck && npm test && npm run build",
+    "format": "prettier --write \"{app,components,lib,scripts,tests}/**/*.{ts,tsx,css,mjs}\" \"*.{ts,json}\"",
+    "format:check": "prettier --check \"{app,components,lib,scripts,tests}/**/*.{ts,tsx,css,mjs}\" \"*.{ts,json}\"",
+    "package:release": "node scripts/package-release.mjs",
+    "test:release": "node scripts/run-release.mjs",
+    "test:postgres": "node scripts/pg-lab.mjs run frontier_tests_v011 --import tsx --test tests/database.test.ts tests/hardening.test.ts"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "0.5.8",
+    "fast-xml-parser": "5.11.1",
+    "lucide-react": "1.41.0",
+    "next": "16.4.2",
+    "pg": "8.23.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.62.1",
+    "@types/node": "26.4.1",
+    "@types/pg": "8.23.1",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.7",
+    "prettier": "3.9.6",
+    "tsx": "4.23.13",
+    "typescript": "7.0.2"
+  }
+}
