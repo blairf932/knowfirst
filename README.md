@@ -141,8 +141,9 @@ This is a **local Internal MVP**, not a production SaaS:
 
 - No email verification, password reset or OAuth. Accounts are local to your machine.
 - No billing, no data-export UI, no durable scheduler (refresh is bounded but synchronous).
-- Registration is intended for a loopback-only environment. **Disable open registration before
-  exposing this anywhere.**
+- Registration is open (no invite, no email verification). Fine while the app is loopback-only,
+  but a real hole if exposed to the internet — see
+  [Open registration and public exposure](docs/PRIVACY_DATA_LIFECYCLE.md#open-registration-and-public-exposure).
 - No Mem0 / OpenClaw runtime compatibility certification; compatibility claims are declared-bound,
   not tested.
 - No vector search — retrieval is canonical-ID and bilingual-alias matching, deliberately.
@@ -213,7 +214,7 @@ Radar 事件、来源状态页、本地账户与技术档案。v0.1 只有 **17 
 Windows PowerShell 请用 `npm.cmd`。
 
 **边界**：这是本地 Internal MVP，不是生产 SaaS。没有邮箱验证/找回密码/OAuth，没有计费，
-没有持久调度器，没有向量检索。**对外开放前必须先关闭开放注册。** 许可证审查是工程判断，
+没有持久调度器，没有向量检索。**注册默认是开放的**——本地用没问题（只有你自己能访问），但把应用放到公网前必须先关掉注册（加邀请码、白名单或直接禁用），否则陌生人能随便注册、还可能消耗你的模型额度。许可证审查是工程判断，
 不构成法律意见。
 
 **文档**：架构、数据模型、来源策略、模型策略、隐私生命周期、许可审计、商业化风险见

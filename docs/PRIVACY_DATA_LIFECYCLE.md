@@ -8,7 +8,19 @@ New passwords use random 16-byte salts and scrypt N=131072, r=8, p=1, 64-byte ou
 
 Sessions use 32 random bytes, store only a SHA-256 digest, expire after 7 days and are removed on logout. Cookies are HttpOnly/SameSite=Lax and Secure when APP_ORIGIN is HTTPS. API authentication reads the current NextRequest cookie directly, avoiding ambient request-context ambiguity in a standalone bundle. Independent A/B profiles, spoofed identifiers, logout and deletion revocation are exercised in Edge/API tests.
 
-Mutations require exact configured Origin. JSON bodies are bounded while streaming (16 KB), validated with Zod and sent through SQL parameters. Limits are persisted and atomically incremented, including global anonymous/auth limits and per-user reauthentication/model limits. Proxy-provided IP headers are not trusted. These controls are not a public Internet load/abuse capacity test.
+Mutations require exact configured Origin. JSON bodies are bounded while streaming (16,000 bytes), validated with Zod and sent through SQL parameters. Limits are persisted and atomically incremented, including global anonymous/auth limits and per-user reauthentication/model limits. Proxy-provided IP headers are not trusted. These controls are not a public Internet load/abuse capacity test.
+
+## Open registration and public exposure
+
+The app binds to `127.0.0.1` by default, so only your own machine can reach it. In that mode, open registration is harmless: the only person who can sign up is you.
+
+"Open registration" means `POST /api/auth/register` accepts any account with no invitation, no email verification, no admin approval. That is deliberate — the intended use is one user on one machine.
+
+"Public exposure" means putting the app where the internet can reach it: a public server, `0.0.0.0`, or a reverse proxy. If you do that while registration is still open, any stranger can create an account, and if you have configured a paid model, those strangers can spend your API budget.
+
+The rule is one line: **leave registration open while it is loopback-only; before exposing it, disable the register route or put an invitation / allowlist / approval step in front of it.**
+
+Until you actually deploy it publicly, none of this needs doing.
 
 ## Personal data
 
